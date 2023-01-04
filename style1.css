@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 28px;
+     background-color: aquamarine; 
+    display: flex;
+    justify-content: center;
+
+}
+fieldset{
+    display: flex;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+legend{
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.main{
+    width: 1200px;
+    
+
+    
+}
+ .container{ 
+     background-color: rgb(16, 62, 214);
+    height: 1600px;
+    width: 1400px;
+    margin: 50px;
+    padding-right: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px grey;
+}
+.left{
+   border-right: .5px solid rgb(200, 190, 50);
+    height: 1400px;
+    width: 400px;
+    box-shadow: 4px 6px rgb(185, 182, 182);
+
+}
+.right{
+    margin-left: 0;
+    height: 1400px;
+    width: 800px;
+   
+
+}
+img{
+    border-radius: 50%;
+    border: 7px solid rgb(0, 0, 0);
+    width: 380px;
+    
+}
+
+.obj{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left h1,h2{
+    color:rgb(54, 200, 161);
+}
+.left div{
+    margin: 35px 15px ;
+}
+.left .contact .p{
+    margin: 5px;
+    padding-left: 10px;
+}
+.hobbie{
+    margin: 10px;
+    padding-left: 20px;
+}
+/* right */
+.right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;gap: 10px; */
+    gap: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+.name{
+    font-size: 40px;
+    margin: 200px 130px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+   
+}
+input{
+    color: aqua;
+}
+span{
+    padding-left: 10px;
+}
